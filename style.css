@@ -15,11 +15,10 @@ body {
 /* HEADER */
 header {
     background-color: blanchedalmond;
-    background-size: cover;
-    background-position: center 0;
-    background-repeat: no-repeat;
+}
 
-
+header .img-wrapper{
+    max-width: 10%;
 }
 
 .contenedor_logo_menu {
@@ -62,108 +61,6 @@ header {
     color: white;
     background: black;
 
-}
-
-
-/* SLIDER 
-
-.slider{
-background-image: url(fotos/header\ \(1\).jpg);
-position: relative;
-margin: 0px 0px;
-width: 100%;
-height: 1%;
-background-repeat: space repeat;
-text-align: center;
-align-items: center; */
-
-slider{
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-  }
-  .slider ul{
-      display: flex;
-      animation: cambio 15s infinite;
-      width: 400%;
-  }
-  .slider li{
-      width: 25%;
-      list-style: none;
-     /* display: inline-block;*/
-  }
-  .slider img{
-      /*width: 100%;
-      height: 100%;*/
-      max-width: 50%;
-      max-height: 50%;
-  }
-  @keyframes cambio{
-      0%{margin-left: 0;}
-      20%{margin-left: 0;}
-      
-      25%{margin-left: -100%;}
-      45%{margin-left: -100%;}
-      
-      50%{margin-left: -200%;}
-      70%{margin-left: -200%;}
-      
-      75%{margin-left: -300%;}
-      100%{margin-left: -300%;}
-  }
-  @media only screen and (min-width:320px) and (max-width:768px){
-  .slider, .slider ul, .slider img{
-      height: 100vh;
-  }
-  }
-
-
-.textos1{
-    background-image: url(fotos/slider1.jpg);
-    
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin: 100px 100px;
-    align-items: center;
-}
-
-.textos2{
-    background-image: url(fotos/slider2.jpg);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin: 100px 0px;
-}
-.textos3{
-    background-image: url(fotos/slider3.jpg);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin: 100px 0px;
-}
-
-.slogan {
-
-    font-size: 42px;
-    line-height: 35px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    font-family: "Open Sea", Arial, Helvetica, sans-serif;
-    font-weight: 400;
-   
-   
-    
-
-}
-
-.slogan2 {
-    font-size: 25px;
-    display: inline-block;
-    line-height: 25px;
-    margin-bottom: 300px;
-    font-family: "Open Sea", Arial, Helvetica, sans-serif;
-    font-weight: 300px;
-    background: white;
-    padding: 2px 2px;
-    
 }
 
 .contenedor-btns{

@@ -19,29 +19,50 @@
 
 <body>
   <!-- HEADER -->
+  <!-- BARRA DE NAVEGACIÓN -->
   <header>
-    <div class="container">
-
-      <div class="row py-3">
-        <div class="col-xs-12 d-flex justify-content-between align-items-center">
-          <div class="img-wrapper">
-            <a href="/index.html">
-              <img src="fotos/logo.jpg" class="img-fluid" alt="">
-            </a>
-          </div>
-          <div class="d-flex gap-4">
-            <a class="link-primary" href="#">Inicio</a>
-            <a class="link-primary" href="#">¿Quienes somos?</a>
-            <a class="link-primary" href="#">Servicios</a>
-            <a class="link-primary" href="#">Contacto</a>
-          </div>
-        </div>
+ 
+  <nav class="navbar navbar-expand-lg bg-transparent">
+    <div  class="container-fluid">
+      <div class="img-wrapper">
+        <img src="fotos/Logo 1 Color fondo negro2.0.jpg" class="img-fluid" alt=""> 
       </div>
-    
-  </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Restructuración Empresas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">¿Quienes somos?</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Empresas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Particulares</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#formulario">Contacto</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
   </header>
 
-  <!-- BARRA DE NAVEGACIÓN -->
+
   
   <section class="main">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -52,7 +73,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <!-- Etiqueta picutre para cargar imagenes en funcion de la resolucion -->
+          <!-- Etiqueta picture para cargar imagenes en funcion de la resolucion -->
           <picture>
             <source media="(min-width:992px)" srcset="fotos/test.webp">
             <img src="fotos/test-mb.webp" class="d-block w-100" alt="alt-pic">
@@ -89,7 +110,44 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    
+    <!-- MI PADRE ALGO SOBRE ELLOS -->
+    <section>
+<div class="algoinfo container">
+  <div class="row">
+    <div class="col-12 col-lg-6">
+      <div class="container-card">
+        <img src="fotos/Firma Blanco y Negro fondo transparente.png" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+          <div class="text"> <h5>Antonio Villanueva</h5>
+            <div>
+              <p>ALGO SOBRE VOSOTROS :Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, saepe?</p>
+            </div>
+          </div>
+        </div>
+        <div class="position-absolute bottom-0 start-0 end-0 mx-auto">
+         <p class="text-center px-1">papapa</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6">
+      <div class="container-card">
+        <img src="fotos/Firma Blanco y Negro fondo transparente.png" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+          <div class="text"> <h5> Cristina Lázaro</h5>
+            <p>ALGO SOBRE VOSOTROS :Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, saepe?</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    </section>
+
     <section class="somos">
       <div class="container">
         <div class="row">
@@ -126,40 +184,30 @@
       </div>
       
     </section>
-    <br>
-    <br>
     <section class="servicios">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="row fotos">
-              <div class="col-xs-2 thumb">
-                <img class="img-responsive" src="fotos/somos.jpg" alt="">
-              </div>
-              <div class="col-xs-4 texto">
-                <h2 class="titulo azul">Priorizamos la confianza y satisfaccion del cliente.</h2>
-                <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, nobis? Lorem ipsum
-                  dolor sit amet consectetur adipisicing elit. Quaerat, perspiciatis.</p>
-
-              </div>
-
+      <div class="container-fluid px-0">
+        <div class="row g-0 align-items-center">
+            <div class="col-12 col-lg-6 thumb">
+              <img class="img-responsive" src="fotos/somos.jpg" alt="">
             </div>
-            <div class="row fotos">
-
-              <div class="col-xs-8 texto ">
-                <h2 class="titulo naranja derecha">Priorizamos la confianza y satisfaccion del cliente.</h2>
-                <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, nobis? Lorem ipsum
-                  dolor sit amet consectetur adipisicing elit. Quaerat, perspiciatis.</p>
-
-              </div>
-              <div class="col-xs-4 thumb">
-                <img class="img-responsive" src="fotos/somos2.jpg" alt="">
-              </div>
-
+            <div class="col-12 col-lg-6 texto mt-2 mt-lg-0">
+              <h2 class="titulo azul">Priorizamos la confianza y satisfaccion del cliente.</h2>
+              <p class="parrafo px-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, nobis? Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Quaerat, perspiciatis.</p>
             </div>
+        </div>
+        <div class="row g-0 d-flex align-items-center">
+          <div class="col-12 col-lg-6 texto order-2 order-lg-1 mt-2 mt-lg-0">
+            <h2 class="titulo naranja derecha">Priorizamos la confianza y satisfaccion del cliente.</h2>
+            <p class="parrafo px-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, nobis? Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Quaerat, perspiciatis.</p>
+          </div>
+          
+          <div class="col-12 col-lg-6 thumb order-1 order-lg-2">
+            <img class="img-responsive" src="fotos/somos2.jpg" alt="">
           </div>
         </div>
-
+          
       </div>
     </section>
 
@@ -222,7 +270,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="container-form">
-              <div class="info-form">
+              <div id="formulario" class="info-form">
                 <h2>Contáctanos</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eligendi est voluptates quae ipsam
                   eius, in quasi odio porro aut vel beatae aperiam.</p>

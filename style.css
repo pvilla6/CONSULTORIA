@@ -7,14 +7,14 @@
 }
 
 body {
-    background-color: blanchedalmond !important;
+    background-color:  whitesmoke !important;
     font-family: "Open Sans", Georgia, Times, 'Times New Roman', serif!important;
 
 }
 
 /* HEADER */
 header {
-    background-color: blanchedalmond;
+    background: rgb(247, 185, 72);
 }
 
 header .img-wrapper{
@@ -91,13 +91,18 @@ header .img-wrapper{
 
 }
 
+/* FOTOS PAPA CON TEXTO*/
+
+.algoinfo {
+    margin-bottom: 0px;;
+}
 
 /* SOMOS */
 
 .somos{
 padding: 20px 0px;
 text-align: center;
-background: rgb(184, 184, 184);
+background: rgb(247, 185, 72);
 
 }
 
@@ -151,11 +156,11 @@ margin-bottom: 20px;
 width: 100%;
 }
 
-/* CLIENTES */
+/* TESTIMONIOS */
 
 
 .clientes{
-    background: rgb(184, 184, 184);
+    background: rgb(247, 185, 72);
     padding: 40px 0px;
     text-align: center;
     font-family:"Open Sea", Arial, Helvetica, sans-serif;
@@ -250,7 +255,7 @@ width: 100%;
 }
 
 .container-form a i {
-    color: orange;
+    color: rgb(247, 185, 72);;
     margin-right: 10px;
 }
 
@@ -289,7 +294,7 @@ textarea {
     text-align: center;
     padding: 20px 0px;
     margin-top: 30px;
-    background: rgb(184, 184, 184);
+    background: rgb(247, 185, 72);;
     margin-bottom: 0px;
 }
 
@@ -321,51 +326,21 @@ textarea {
     background: rgb(139, 14, 170);
 }
 
-
+/* FOTOS PAPA DEBAJO DE SLIDER */
 
 .container-card {
     position: relative;
     width: 100%;
-    background-color: red;
+    height: 100%;
+    background-color: rgb(189, 184, 184);
   }
-  
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
+ 
   .middle {
-    transition: .5s ease;
-    opacity: 0;
+    
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+   
   }
   
-  .container-card:hover .image {
-    opacity: 0.3;
-  }
-  
-  .container-card:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
-
-
-
 
 
 

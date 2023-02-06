@@ -86,6 +86,11 @@ header .img-wrapper{
     ;
 
 }
+.alonso {
+    font-size: 20px;
+    
+    
+}
 
 .contenedor-btns a:hover{
 
@@ -176,18 +181,22 @@ padding-top: 20px;
 
 }
 
+
 .icono{
     margin-top: 30px;
 }
 .tituloazul{
 margin-left: 100px;
 position: relative;
+margin-right: 95px;
+
 }
 .frasesolucion {
    /* border: 5px solid black;*/
    font-size: 30px;
     margin-top: 20px;
     padding-top: 10px;
+    
     
 }
 .parrafo{
@@ -202,7 +211,7 @@ width: 100%;
 
 
 .clientes{
-    background: rgb(182, 181, 181);
+    background: rgb(0, 0, 0);
     padding: 40px 0px;
     text-align: center;
     font-family:"Open Sea", Arial, Helvetica, sans-serif;
@@ -216,6 +225,7 @@ width: 100%;
 
 .clientestitulo{
     margin-bottom: 40px;
+    color: white;
 }
 
 .clientes h3{
@@ -225,8 +235,13 @@ width: 100%;
 
 .nombrecliente{
     font-size: 20px;
+    color: white;
     
     
+}
+.negociocliente{
+    color: white;
+
 }
 
 .pnegocio{
@@ -235,6 +250,8 @@ width: 100%;
     margin-top: auto;
 
 }
+
+
 
 .btnclientes{
     color: white;
@@ -356,6 +373,12 @@ textarea {
     max-width: 150px;
     
 }.
+.icon {
+    padding: 10px 15px;
+    border-radius: 4px;
+    size: 10px;
+    
+  }
 
 
 
@@ -389,6 +412,8 @@ textarea {
 }
 
 /* FOTOS PAPA DEBAJO DE SLIDER */
+/*Cookies
+---------------------------------------------*/
 
 
 
@@ -402,4 +427,3 @@ textarea {
     }
   }
 
- 

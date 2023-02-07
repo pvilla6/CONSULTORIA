@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color:  white !important;
-    font-family: "Open Sans", Georgia, Times, 'Times New Roman', serif!important;
+    background-color: white !important;
+    font-family: "Open Sans", Georgia, Times, 'Times New Roman', serif !important;
 
 }
 
@@ -17,7 +17,7 @@ header {
     background: white;
 }
 
-header .img-wrapper{
+header .img-wrapper {
     width: 50%;
     max-width: 230px;
     margin-left: 70px;
@@ -38,13 +38,13 @@ header .img-wrapper{
 
 .logo a img {
     vertical-align: top;
-    
+
 }
 
 .menu {
     text-align: right;
     line-height: 50px;
-    
+
 
 
 }
@@ -56,20 +56,21 @@ header .img-wrapper{
     padding: 7px;
     text-decoration: none;
     font-weight: 800;
-    
-    
+
+
 }
 
 /*.menu a:hover {
     border-radius: 10px 10px 10px 10px;
     color: white;
     background: black;*/
-   
 
 
-.contenedor-btns{
+
+.contenedor-btns {
     margin-bottom: 100px;
 }
+
 .contenedor-btns a {
     margin-bottom: 200px;
     border-radius: 4px;
@@ -86,13 +87,14 @@ header .img-wrapper{
     ;
 
 }
+
 .alonso {
     font-size: 20px;
-    
-    
+
+
 }
 
-.contenedor-btns a:hover{
+.contenedor-btns a:hover {
 
     color: rgb(0, 0, 0);
     background: rgb(255, 255, 255);
@@ -101,39 +103,45 @@ header .img-wrapper{
 
 /* Después slide*/
 
-.foto_inicio img{
-    
+.foto_inicio img {
+
     margin-left: 00px;
-    
-    
+
+
 }
 
-.imagen_scroll{
-    background: linear-gradient(to top,  rgb(214, 97, 97) 0%, #f5f2f2 100%);    
-    
+.imagen_scroll {
+    background: linear-gradient(to top, rgb(214, 97, 97) 0%, #f5f2f2 100%);
+
+
 }
+
 .algoinfo {
-    margin-bottom: 0px;;
+    margin-bottom: 0px;
+    ;
+}
+
+#copy{
+    pointer-events: none;
+    user-select: none;
 }
 
 
-
-.somos{
-padding: 20px 0px;
-text-align: center;
-background: rgb(214, 97, 97);
-font-weight: 1000px;
-align-items: center;
-color: white;
-}
-
- INTENTO PONER CADROS BLANCOS SEPARADOS
-.primera_linea{
-    background: white;
+.somos {
+    padding: 20px 0px;
+    text-align: center;
+    background: rgb(214, 97, 97);
+    font-weight: 1000px;
+    align-items: center;
     color: white;
 }
 
-.titulo{
+/*INTENTO PONER CADROS BLANCOS SEPARADOS*/
+.primera_linea {   
+    color: white;
+}
+
+.titulo {
     text-align: center;
     font-family: "Open Sea", Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -142,109 +150,163 @@ color: white;
     margin-bottom: 70px 0px;
 }
 
-.icono{
+.icono {
     vertical-align: top;
     margin-bottom: 30px;
-    
+
 }
 
-.primera_linea{
+.primera_linea {
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 30px;
 }
 
-.p_icono{
+.p_icono {
     color: rgb(255, 255, 255);
     line-height: 24px;
     font-weight: 400;
 }
+
 .container-card {
     position: cover;
     width: 100%;
     height: 100%;
     background-color: rgb(189, 184, 184);
-  }
- 
-  .middle {
-    
+}
+
+.middle {
+
     position: absolute;
-   
-  }
-  
+
+}
+
 
 /* SERVICIOS */
 
-.fotos{
-margin-bottom: 20px;
-padding-top: 20px;
+.fotos {
+    margin-bottom: 20px;
+    padding-top: 20px;
 
 }
 
 
-.icono{
+.icono {
     margin-top: 30px;
 }
-.tituloazul{
-margin-left: 100px;
-position: relative;
-margin-right: 95px;
+
+.tituloazul {
+    margin-left: 100px;
+    position: relative;
+    margin-right: 95px;
 
 }
+
 .frasesolucion {
-   /* border: 5px solid black;*/
-   font-size: 30px;
+    /* border: 5px solid black;*/
+    font-size: 30px;
     margin-top: 20px;
     padding-top: 10px;
-    
-    
+
+
 }
-.parrafo{
+
+.parrafo {
     margin-left: 40px;
     padding-right: 40px;
 }
-.thumb img{
-width: 100%;
+
+.thumb img {
+    width: 100%;
+    pointer-events: none;
+    user-select: none;
+
 }
+
+/* WHATSAAP*/
+
+.btn-wsp {
+    position: fixed;
+    width: 70px;
+    height: 65px;
+    line-height: 63px;
+    bottom: 25px;
+    right: 25px;
+    background: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    transition: all 300ms ease;
+
+}
+
+.iconow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-wsp:hover {
+    background: #20ba5a;
+}
+
+.my-float {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .btn-wsp {
+        width: 63px;
+        height: 63px;
+        line-height: 66px;
+    }
+}
+
 
 /* TESTIMONIOS */
 
 
-.clientes{
+.clientes {
     background: rgb(0, 0, 0);
     padding: 40px 0px;
     text-align: center;
-    font-family:"Open Sea", Arial, Helvetica, sans-serif;
+    font-family: "Open Sea", Arial, Helvetica, sans-serif;
     font-weight: 400;
-    
-    
-    
+
+
+
 }
 
 
 
-.clientestitulo{
+.clientestitulo {
     margin-bottom: 40px;
     color: white;
 }
 
-.clientes h3{
+.clientes h3 {
     font-weight: 700;
     font-size: 40px;
 }
 
-.nombrecliente{
+.nombrecliente {
     font-size: 20px;
     color: white;
-    
-    
+
+
 }
-.negociocliente{
+
+.negociocliente {
     color: white;
 
 }
 
-.pnegocio{
+.pnegocio {
     color: white;
     margin-top: 50px;
     margin-top: auto;
@@ -253,15 +315,15 @@ width: 100%;
 
 
 
-.btnclientes{
+.btnclientes {
     color: white;
 }
 
-.clientes a{
+.clientes a {
     margin-bottom: 200px;
     border-radius: 4px;
     border: 2px solid rgb(0, 0, 0);
-    color: rgb(0,0,0);
+    color: rgb(0, 0, 0);
     padding: 12px 12px 12px 12px;
     font-weight: 700;
     text-decoration: none;
@@ -271,20 +333,20 @@ width: 100%;
     margin: 0px 20px;
     background: rgb(72, 211, 7);
     font-weight: 700;
-    
+
 }
 
-.clientes a:hover{
+.clientes a:hover {
     color: black;
     background: whitesmoke;
     ;
 }
 
 
-.foto_cliente img{
-    border-radius:150%;
-    
-    
+.foto_cliente img {
+    border-radius: 150%;
+
+
 }
 
 
@@ -326,7 +388,8 @@ width: 100%;
 }
 
 .container-form a i {
-    color: rgb(247, 185, 72);;
+    color: rgb(247, 185, 72);
+    ;
     margin-right: 10px;
 }
 
@@ -361,24 +424,27 @@ textarea {
 
 /* FOOTER */
 
-.final{
+.final {
     text-align: center;
     padding: 20px 0px;
     margin-top: 30px;
-    background: rgb(182, 181, 181);;
+    background: rgb(182, 181, 181);
+    ;
     margin-bottom: 0px;
 }
-.fotofinal{
+
+.fotofinal {
     width: 25%;
     max-width: 150px;
-    
-}.
-.icon {
+
+}
+
+. .icon {
     padding: 10px 15px;
     border-radius: 4px;
     size: 10px;
-    
-  }
+
+}
 
 
 
@@ -422,8 +488,7 @@ textarea {
 
 
 @media only screen and (max-width: 992px) {
-    .titulo{
+    .titulo {
         font-size: 20px;
     }
-  }
-
+}
